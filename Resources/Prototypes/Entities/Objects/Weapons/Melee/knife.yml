@@ -22,6 +22,7 @@
   - type: Sprite
   - type: Item
     size: Small
+  # Sunrise-start
   - type: Tool
     qualities:
       - Cutting
@@ -29,7 +30,6 @@
     speedModifier: 0.6
     useSound:
       path: /Audio/Items/wirecutter.ogg
-  # Sunrise-start
   - type: Scalpel
   - type: SurgeryTool
     successRate: 0.9
