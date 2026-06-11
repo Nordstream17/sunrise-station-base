@@ -43,7 +43,7 @@
       - TrayScanner
       - GasAnalyzer
       - HandLabeler
-      - LightReplacer
+      - LightReplacer # Sunrise-Add
   - type: ItemMapper
     sprite: &BeltOverlay Clothing/Belt/belt_overlay.rsi
     mapLayers:
