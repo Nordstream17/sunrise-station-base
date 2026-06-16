@@ -2,7 +2,7 @@
   id: CrateVendingMachineRestockPaintVend
   icon:
     sprite: _Sunrise/Objects/Specific/Service/vending_machine_restock.rsi
-    state: icon_cargo_paint
+    state: icon_cargo
   product: CrateVendingMachineRestockPaintVendFilled
   cost: 5500
   category: cargoproduct-category-name-service
@@ -12,7 +12,7 @@
   id: CrateVendingMachineRestockInstrumentsMate
   icon:
     sprite: _Sunrise/Objects/Specific/Service/vending_machine_restock.rsi
-    state: icon_cargo_paint
+    state: icon_cargo
   product: CrateVendingMachineRestockInstrumentsMateFilled
   cost: 5750
   category: cargoproduct-category-name-service
