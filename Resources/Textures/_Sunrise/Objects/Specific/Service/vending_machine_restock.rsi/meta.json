@@ -24,11 +24,11 @@
     {
       "name": "refill_paint"
     },
-     {
+    {
       "name": "refill_instruments"
     },
     {
-        "name": "icon_cargo_paint"
+        "name": "icon_cargo"
     }
   ]
 }
