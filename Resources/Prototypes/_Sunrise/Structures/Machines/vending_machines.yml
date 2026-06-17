@@ -223,9 +223,7 @@
   - type: VendingMachine
     pack: InstrumentsMateInventory
     offState: off
-    brokenState: broken
     normalState: normal-unshaded
-    denyState: deny-unshaded
   - type: Vocalizer
   - type: DatasetVocalizer
     dataset: InstrumentsMateAds
