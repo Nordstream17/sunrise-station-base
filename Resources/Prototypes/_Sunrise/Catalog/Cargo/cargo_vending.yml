@@ -2,9 +2,19 @@
   id: CrateVendingMachineRestockPaintVend
   icon:
     sprite: _Sunrise/Objects/Specific/Service/vending_machine_restock.rsi
-    state: icon_cargo
+    state: icon_cargo_paint
   product: CrateVendingMachineRestockPaintVendFilled
   cost: 5500
+  category: cargoproduct-category-name-service
+  group: market
+
+- type: cargoProduct
+  id: CrateVendingMachineRestockDonk
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockDonkFilled
+  cost: 800
   category: cargoproduct-category-name-service
   group: market
 
@@ -12,8 +22,8 @@
   id: CrateVendingMachineRestockInstrumentsMate
   icon:
     sprite: _Sunrise/Objects/Specific/Service/vending_machine_restock.rsi
-    state: icon_cargo
+    state: base
   product: CrateVendingMachineRestockInstrumentsMateFilled
-  cost: 5750
+  cost: 6500
   category: cargoproduct-category-name-service
   group: market

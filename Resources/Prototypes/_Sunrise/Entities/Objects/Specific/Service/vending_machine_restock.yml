@@ -33,4 +33,4 @@
     - state: green_bit
       shader: unshaded
   - type: StaticPrice
-    price: 2500
+    price: -3000
