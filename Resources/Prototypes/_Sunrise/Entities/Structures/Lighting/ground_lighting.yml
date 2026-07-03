@@ -1,9 +1,9 @@
 - type: entity
   id: JapaneseLantern
-  name: Japanese lantern
-  description: "An elegant stone lantern."
+  name: japanese lantern
+  description: An elegant stone lantern.
   suffix: Always Powered
-  parent: BaseStructure
+  parent: LightPostSmall
   components:
   - type: Sprite
     sprite: _Sunrise/Structures/Lighting/japanese_lantern.rsi
@@ -13,60 +13,16 @@
     layers:
     - map: ["enum.PoweredLightLayers.Base"]
       state: base
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.17,-0.30,0.17,0.25"
-        density: 190
-        mask:
-        - MachineMask
-        layer:
-        - MidImpassable
-        - LowImpassable
-        - BulletImpassable
   - type: PointLight
     radius: 4
     energy: 2.5
     softness: 0.9
     color: "#FFAF38"
-  - type: Anchorable
-  - type: InteractionOutline
-  - type: Damageable
-    damageContainer: Inorganic
-    damageModifierSet: Metallic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 200
-      behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 100
-      behaviors:
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
-      - !type:SpawnEntitiesBehavior
-        spawn:
-          SheetSteel1:
-            min: 2
-            max: 4
-      - !type:EmptyAllContainersBehaviour
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalGlassBreak
-  - type: StaticPrice
-    price: 75
-  - type: RequireProjectileTarget
 
 - type: entity
   id: JapaneseLanternSmall
-  name: Small Japanese lantern
-  description: "An elegant stone lantern."
+  name: small Japanese lantern
+  description: An elegant stone lantern.
   suffix: Always Powered
   parent: JapaneseLantern
   components:
@@ -84,8 +40,8 @@
 
 - type: entity
   id: PoweredJapaneseLantern
-  name: Japanese lantern
-  description: "An elegant stone lantern."
+  name: japanese lantern
+  description: An elegant stone lantern.
   suffix: ""
   parent: JapaneseLantern
   components:
@@ -107,8 +63,8 @@
 
 - type: entity
   id: PoweredJapaneseLanternSmall
-  name: Small Japanese lantern
-  description: "An elegant stone lantern."
+  name: small japanese lantern
+  description: An elegant stone lantern.
   suffix: ""
   parent: JapaneseLanternSmall
   components:

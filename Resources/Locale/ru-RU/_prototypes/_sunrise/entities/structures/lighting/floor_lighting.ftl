@@ -10,10 +10,10 @@ ent-PoweredFloorlight = { ent-AlwaysPoweredFloorLight }
 ent-PoweredFloorlightAlwaysPowered = { ent-AlwaysPoweredFloorLight }
     .desc = { ent-FloorLightEmpty.desc }
 
-ent-JapaneseLantern = Японский фонарь
-    .desc = Элегантный каменный фонарь
+ent-JapaneseLantern = японский фонарь
+    .desc = Элегантный каменный фонарь.
     .suffix = { ent-AlwaysPoweredWallLight.suffix }
-ent-JapaneseLanternSmall   = Маленький японский фонарь
+ent-JapaneseLanternSmall   = маленький японский фонарь
     .desc = { ent-JapaneseLantern.desc }
     .suffix = { ent-AlwaysPoweredWallLight.suffix }
 ent-PoweredJapaneseLantern = { ent-JapaneseLantern }
