@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  id: BasePoweredJapaneseLantern
+  id: SunriseBasePoweredJapaneseLantern
   components:
   - type: AmbientOnPowered
   - type: PoweredLightVisuals
@@ -19,7 +19,7 @@
   - type: Appearance
 
 - type: entity
-  id: JapaneseLantern
+  id: SunriseJapaneseLantern
   name: japanese lantern
   description: An elegant stone lantern.
   suffix: Always Powered
@@ -40,11 +40,11 @@
     color: "#FFAF38"
 
 - type: entity
-  id: JapaneseLanternSmall
+  id: SunriseJapaneseLanternSmall
   name: small Japanese lantern
   description: An elegant stone lantern.
   suffix: Always Powered
-  parent: JapaneseLantern
+  parent: SunriseJapaneseLantern
   components:
   - type: Sprite
     sprite: _Sunrise/Structures/Lighting/japanese_lantern_small.rsi
@@ -56,16 +56,16 @@
       state: base
 
 - type: entity
-  id: PoweredJapaneseLantern
+  id: SunrisePoweredJapaneseLantern
   name: japanese lantern
   description: An elegant stone lantern.
   suffix: ""
-  parent: [JapaneseLantern, BasePoweredJapaneseLantern]
+  parent: [SunriseJapaneseLantern, SunriseBasePoweredJapaneseLantern]
 
 - type: entity
-  id: PoweredJapaneseLanternSmall
+  id: SunrisePoweredJapaneseLanternSmall
   name: small japanese lantern
   description: An elegant stone lantern.
   suffix: ""
-  parent: [JapaneseLanternSmall, BasePoweredJapaneseLantern]
+  parent: [SunriseJapaneseLanternSmall, SunriseBasePoweredJapaneseLantern]
 
