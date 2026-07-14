@@ -35,9 +35,6 @@
     - map: ["enum.PoweredLightLayers.Base"]
       state: base
 
-
-
-
 - type: entity
   id: PoweredJapaneseLantern
   name: japanese lantern
