@@ -1,4 +1,24 @@
 - type: entity
+  abstract: true
+  id: BasePoweredJapaneseLantern
+  components:
+  - type: AmbientOnPowered
+  - type: PoweredLightVisuals
+    blinkingSound:
+      path: "/Audio/Machines/light_tube_on.ogg"
+    spriteStateMap:
+      off: base
+      on: base
+  - type: Electrified
+    enabled: false
+    usesApcPower: true
+  - type: LitOnPowered
+  - type: ApcPowerReceiver
+    powerLoad: 200
+  - type: ExtensionCableReceiver
+  - type: Appearance
+
+- type: entity
   id: JapaneseLantern
   name: japanese lantern
   description: An elegant stone lantern.
@@ -40,44 +60,12 @@
   name: japanese lantern
   description: An elegant stone lantern.
   suffix: ""
-  parent: JapaneseLantern
-  components:
-  - type: AmbientOnPowered
-  - type: PoweredLightVisuals
-    blinkingSound:
-      path: "/Audio/Machines/light_tube_on.ogg"
-    spriteStateMap:
-      off: base
-      on: base
-  - type: Electrified
-    enabled: false
-    usesApcPower: true
-  - type: LitOnPowered
-  - type: ApcPowerReceiver
-    powerLoad: 200
-  - type: ExtensionCableReceiver
-  - type: Appearance
+  parent: [JapaneseLantern, BasePoweredJapaneseLantern]
 
 - type: entity
   id: PoweredJapaneseLanternSmall
   name: small japanese lantern
   description: An elegant stone lantern.
   suffix: ""
-  parent: JapaneseLanternSmall
-  components:
-  - type: AmbientOnPowered
-  - type: PoweredLightVisuals
-    blinkingSound:
-      path: "/Audio/Machines/light_tube_on.ogg"
-    spriteStateMap:
-      off: base
-      on: base
-  - type: Electrified
-    enabled: false
-    usesApcPower: true
-  - type: LitOnPowered
-  - type: ApcPowerReceiver
-    powerLoad: 200
-  - type: ExtensionCableReceiver
-  - type: Appearance
+  parent: [JapaneseLanternSmall, BasePoweredJapaneseLantern]
 
