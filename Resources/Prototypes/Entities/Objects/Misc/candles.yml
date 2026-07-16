@@ -276,11 +276,11 @@
   suffix: Decorative
   id: CandleInfinite
   components:
-  # Sunrise-Start
+  # Sunrise-start
   - type: Tag
     tags:
       - Candle
-  #Sunrise-End
+  # Sunrise-end
   - type: Sprite
     noRot: true
     sprite: Objects/Misc/candles.rsi
