@@ -12,9 +12,7 @@
         children:
         - id: ClothingBeltSyndicateUtilityChameleon
         - id: ClothingHandsGlovesCombatCQC
-        - id: ClothingHeadsetAltSyndicate
         - id: ClothingEyesGlassesHiddenSecurityChameleon
-        - id: ClothingUniformJumpsuitOperative
-        - id: ClothingUniformJumpskirtOperative
         - id: ClothingBackpackChameleonFillAgent
         - id: JetpackBlackFilled
+        - id: RadioImplanter
