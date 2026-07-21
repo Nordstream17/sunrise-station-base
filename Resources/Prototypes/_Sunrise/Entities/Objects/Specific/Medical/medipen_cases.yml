@@ -173,7 +173,7 @@
   name: medipen case
   description: A small medipen case. Saves a lot of space!
   parent: MedipenCaseBase
-  id: MedipenCaseSynicate
+  id: MedipenCaseSyndicate
   suffix: Syndicate
   components:
   - type: Sprite

@@ -16,5 +16,5 @@ ent-MedipenCasePirate = { ent-MedipenCaseBlueShield }
     .desc = { ent-MedipenCaseBlueShield.desc }
 ent-MedipenCaseRecycler = { ent-MedipenCaseBlueShield }
     .desc = { ent-MedipenCaseBlueShield.desc }
-ent-MedipenCaseSynicate = пенал для медипенов Синдиката
+ent-MedipenCaseSyndicate = { ent-MedipenCaseBlueShield }
     .desc = { ent-MedipenCaseBlueShield.desc }

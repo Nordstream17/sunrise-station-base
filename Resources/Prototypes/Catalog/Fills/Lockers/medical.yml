@@ -65,7 +65,7 @@
         weight: 0.05
     - id: ClothingMaskSterile
     - id: JetInjector
-    - id: MedipenCaseMedic
+    - id: MedipenCaseMedic # Sunrise-edit
 
 - type: entity
   parent: LockerMedical
