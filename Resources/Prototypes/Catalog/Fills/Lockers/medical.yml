@@ -139,7 +139,7 @@
     - id: MedkitFilled
       prob: 0.3
     - id: JetInjector
-    - id: MedipenCaseParamedic
+    - id: MedipenCaseParamedic # Sunrise-edit
 
 - type: entity
   parent: LockerParamedic
