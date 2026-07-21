@@ -65,6 +65,7 @@
         weight: 0.05
     - id: ClothingMaskSterile
     - id: JetInjector
+    - id: MedipenCaseMedic
 
 - type: entity
   parent: LockerMedical
@@ -138,6 +139,7 @@
     - id: MedkitFilled
       prob: 0.3
     - id: JetInjector
+    - id: MedipenCaseParamedic
 
 - type: entity
   parent: LockerParamedic
