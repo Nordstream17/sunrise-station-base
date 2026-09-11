@@ -1834,7 +1834,7 @@
   - NTEquipment
   conditions:
   - !type:ListingLimitedStockCondition
-    stock: 10
+    stock: 12
 
 - type: listing
   id: ERTUplinkDoubleEmergencyOxygenTankFilled
