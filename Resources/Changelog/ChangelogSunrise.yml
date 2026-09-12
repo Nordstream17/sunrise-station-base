@@ -4854,3 +4854,12 @@
     message: Исправлено выравнивание блока персонажей в панели взаимодействий
   id: 2028
   url: https://github.com/makura-games/sunrise-station/pull/4793
+- author: KaiserMaus
+  time: '2026-09-11T05:06:16.0000000+00:00'
+  changes:
+  - type: Tweak
+    message: Экспансивные патроны теперь наносят 10% урона ушибами и 10%  порезами и 80% урона уколами вместо 100%  уколы.
+  - type: Tweak
+    message: Респрайт С-40r.
+  id: 2029
+  url: https://github.com/makura-games/sunrise-station/pull/4803
