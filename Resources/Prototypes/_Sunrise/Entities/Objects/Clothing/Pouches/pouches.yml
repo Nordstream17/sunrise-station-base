@@ -200,3 +200,38 @@
       - Explosive
       - BallisticAmmoProvider
 
+# Material
+- type: entity
+  parent: [Pouch]
+  id: PouchMaterial
+  name: pouch for materials
+  description: It can carry different materials and circuitboards.
+  components:
+  - type: Sprite
+    scale: 0.9,0.9
+    sprite: _Sunrise/Clothing/Pouches/material_pouch.rsi
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,7,1
+    quickInsert: true
+    areaInsert: true
+    whitelist:
+      tags:
+        - PartRodMetal
+        - Sheet
+        - CableCoil
+        - RawMaterial
+        - Tile
+        - PowerCell
+        - PowerCellSmall
+        - Ingot
+        - DoorElectronics
+        - AirAlarmElectronics
+        - MicroManipulatorStockPart
+        - PartRodMetal
+        - Board
+        - StationMapElectronics
+      components:
+        - DoorElectronics
+        - Circuitboard

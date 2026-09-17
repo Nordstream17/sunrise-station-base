@@ -28,3 +28,5 @@ ent-PouchAmmoFilledLightRifle = малый магазинный подсумок
     .desc = { ent-PouchAmmo.desc }
 ent-PouchBackpackPockets = карманы для снаряжения
     .desc = Универсальные карманы для любой взрывчатки, коробок патронов и магазинов.
+ent-PouchMaterial = подсумок для материалов
+    .desc =  Предназначен для хранения различных материалов и микросхем.
