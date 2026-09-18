@@ -4,6 +4,6 @@
     sprite: Objects/Materials/materials.rsi
     state: wood_3
   product: CrateMaterialWood
-  cost: 1200
+  cost: 2500
   category: cargoproduct-category-name-materials
   group: market
