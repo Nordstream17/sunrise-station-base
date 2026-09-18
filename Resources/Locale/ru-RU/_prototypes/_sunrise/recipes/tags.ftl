@@ -19,3 +19,4 @@ construction-graph-tag-white-lily-desc = { ent-FoodWhiteLily.desc }
 construction-graph-tag-welding-mask = { ent-ClothingHeadHatWelding }
 construction-graph-tag-welding-mask-desc = { ent-ClothingHeadHatWelding.desc }
 construction-graph-tag-flashlight-sec = { ent-FlashlightSeclite}
+construction-graph-tag-glasses-security = { ent-ClothingEyesGlassesSecurity}
