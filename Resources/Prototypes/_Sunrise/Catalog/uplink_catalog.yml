@@ -44,8 +44,8 @@
 
 - type: listing
   id: UplinkAmmoPouch
-  icon: { sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi, state: icon }
-  productEntity: PouchAmmo
+  icon: { sprite: _Sunrise/Clothing/Pouches/medium_ammo_mag_pmc.rsi, state: icon }
+  productEntity: PouchAmmoSyndi
   categories:
   - UplinkWearables
   conditions:
@@ -54,8 +54,8 @@
 
 - type: listing
   id: UplinkAmmoPouchMedium
-  icon: { sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi, state: icon }
-  productEntity: PouchAmmoMedium
+  icon: { sprite: _Sunrise/Clothing/Pouches/large_ammo_mag_pmc.rsi, state: icon }
+  productEntity: PouchAmmoMediumSyndi
   discountDownTo:
     Telecrystal: 1
   cost:
@@ -71,7 +71,7 @@
 
 - type: listing
   id: UplinkAmmoPouchLarge
-  icon: { sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi, state: icon }
+  icon: { sprite: _Sunrise/Clothing/Pouches/mg_ammo.rsi, state: icon }
   productEntity: PouchAmmoLarge
   discountDownTo:
     Telecrystal: 2
@@ -88,7 +88,7 @@
 
 - type: listing
   id: UplinkPouchExplosive
-  icon: { sprite: _RMC14/Objects/Clothing/Pouches/large_explosive.rsi, state: icon }
+  icon: { sprite: _Sunrise/Clothing/Pouches/large_explosive.rsi, state: icon }
   productEntity: PouchExplosive
   categories:
   - UplinkWearables

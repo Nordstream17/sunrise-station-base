@@ -37127,7 +37127,7 @@ entities:
           Doubloon: 3
         conditions: null
         icon:
-          sprite: /Textures/_RMC14/Objects/Clothing/Pouches/large_explosive.rsi
+          sprite: /Textures/_Sunrise/Clothing/Pouches/large_explosive.rsi
           state: icon
         priority: 0
         productAction: null
@@ -38563,7 +38563,7 @@ entities:
             sizes: null
             components: null
         icon:
-          sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi
+          sprite: _Sunrise/Clothing/Pouches/large_ammo_mag.rsi
           state: icon
         priority: 0
         productAction: null
@@ -38601,7 +38601,7 @@ entities:
             sizes: null
             components: null
         icon:
-          sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi
+          sprite: _Sunrise/Clothing/Pouches/large_ammo_mag.rsi
           state: icon
         priority: 0
         productAction: null
@@ -39625,7 +39625,7 @@ entities:
           Doubloon: 3
         conditions: null
         icon:
-          sprite: /Textures/_RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi
+          sprite: /Textures/_Sunrise/Clothing/Pouches/large_ammo_mag.rsi
           state: icon
         priority: 0
         productAction: null
@@ -52588,7 +52588,7 @@ entities:
             sizes: null
             components: null
         icon:
-          sprite: _RMC14/Objects/Clothing/Pouches/large_explosive.rsi
+          sprite: _Sunrise/Clothing/Pouches/large_explosive.rsi
           state: icon
         priority: 0
         productAction: null
